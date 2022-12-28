@@ -1,7 +1,24 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 18px;
 }
 
+html {
+  background-color: lightgray;
+}
+
+.main-page-element {
+  width: 550px;
+  margin: 0 auto;
+  font-family: Inter, sans-serif;
+  background-color: white;
+}
+
+hr {
+  width: 85%;
+  margin: 0 auto;
+  color: lightgray;
+  height: 1px;
+  border: 0.1px solid lightgray;
+}

@@ -1,0 +1,48 @@
+.card {
+    display: flex;
+    align-items: center;
+    margin: 18px 40px;
+}
+
+.card-image-container {
+    width: 125px;
+    height: 168px;
+}
+
+.card-image-container img {
+    object-fit: cover;
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.card-info {
+    margin: 10px 20px;
+}
+
+.location {
+    font-size: 0.625rem;
+    text-transform: uppercase;
+    margin-left: 4px;
+}
+
+.google-maps-link {
+    font-size: 0.625rem;
+    margin-left: 12px;
+    color: rgba(145, 142, 155, 1);
+}
+
+.title {
+    font-size: 1.56rem;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+}
+
+.dates {
+    font-size: 0.625rem;
+    font-weight: 700;
+}
+
+.description {
+    font-size: 0.625rem;
+}

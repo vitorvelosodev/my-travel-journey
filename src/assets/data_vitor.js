@@ -5,7 +5,7 @@ export default [
         googleMapsUrl: "https://goo.gl/maps/xSifD9voD2Trz8Ki8",
         startDate: "11 Jun, 2022",
         endDate: "12 Jul, 2022",
-        description: "Vila Velha é um município brasileiro localizado no litoral do estado do Espírito Santo, na Região Sudeste do país. Pertence à Região Metropolitana de Vitória e ocupa uma área de 209,965 km², sendo que 54,57 km² estão em perímetro urbano, e a população em 2021 foi estimada pelo IBGE em 508 655 habitantes, o que faz do município o segundo mais populoso do Espírito Santo, atrás apenas da Serra.",
+        description: "Vila Velha é um município brasileiro localizado no litoral do estado do Espírito Santo, na Região Sudeste do país. Pertence à Região Metropolitana de Vitória e ocupa uma área de 209,965 km², sendo que 54,57 km² estão em perímetro urbano.",
         imageUrl: "../../public/public-assets/vila-velha.jpeg"
     },
     {
@@ -24,7 +24,7 @@ export default [
         startDate: "07 Mai, 2022",
         endDate: "13 Mai, 2022",
         description: "Morro de São Paulo é um destino com praias incríveis, localizadas a apenas 60 km de Salvador, na Bahia. O lugar é perfeito para quem ama relaxar em faixas de areia paradisíacas, mergulhar em um mar transparente, comer boas moquecas, praticar snorkeling ou, melhor ainda, não fazer nada e descansar!",
-        imageUrl: "../../public/public-assets/morro-de-sp.heic"
+        imageUrl: "../../public/public-assets/morro-de-sp.jpeg"
     },
     {
         title: "Tamandaré",
@@ -42,6 +42,6 @@ export default [
         startDate: "19 Set, 2021",
         endDate: "04 Out, 2021",
         description: "João Pessoa é uma cidade costeira próxima da foz do rio Paraíba, no leste do Brasil. A sua cidade velha é conhecida pela arquitetura barroca e art nouveau.",
-        imageUrl: "https://source.unsplash.com/WLxQvbMyfas"
+        imageUrl: "../../public/public-assets/joao-pessoa.jpeg"
     }
 ]
