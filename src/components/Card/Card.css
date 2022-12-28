@@ -1,7 +1,7 @@
 .card {
     display: flex;
     align-items: center;
-    margin: 18px 40px;
+    margin: 4% 7%;
 }
 
 .card-image-container {
@@ -45,4 +45,13 @@
 
 .description {
     font-size: 0.625rem;
+}
+
+@media screen and (max-width: 549px) {
+    a {
+        display: block;
+        margin-left: 0 !important;
+        margin-bottom: 5%;
+        font-size: 9px !important;
+    }
 }

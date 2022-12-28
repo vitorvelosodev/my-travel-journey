@@ -9,7 +9,7 @@ html {
 }
 
 .main-page-element {
-  width: 550px;
+  max-width: 550px;
   margin: 0 auto;
   font-family: Inter, sans-serif;
   background-color: white;
@@ -22,3 +22,7 @@ hr {
   height: 1px;
   border: 0.1px solid lightgray;
 }
+
+/* @media screen and (min-width: 549px) {
+  
+} */

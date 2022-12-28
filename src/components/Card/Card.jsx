@@ -2,7 +2,6 @@ import './Card.css'
 import pin from './../../assets/map-pin.png'
 
 export default function Card(props) {
-    // ./../../../public/images/${props.imageUrl}
     return (
         <div className='card'>
             <div className='card-image-container'>
