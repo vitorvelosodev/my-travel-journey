@@ -8,6 +8,7 @@ function App() {
     return (
       <>
         <Card
+          key={item.title}
           {...item}
         />
         <hr />

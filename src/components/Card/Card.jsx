@@ -2,10 +2,11 @@ import './Card.css'
 import pin from './../../assets/map-pin.png'
 
 export default function Card(props) {
+    // ./../../../public/images/${props.imageUrl}
     return (
         <div className='card'>
             <div className='card-image-container'>
-                <img src={`./../assets/images/${props.imageUrl}`} alt={props.title} />
+                <img src={`./images/${props.imageUrl}`} alt={props.title} />
             </div>
             <div className='card-info'>
                 <img className='map-pin' src={pin} alt="map pin" />
