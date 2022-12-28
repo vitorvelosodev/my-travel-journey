@@ -6,7 +6,7 @@ export default function Card(props) {
     return (
         <div className='card'>
             <div className='card-image-container'>
-                <img src={`${process.env.PUBLIC_URL}/images/${props.imageUrl}`} alt={props.title} />
+                <img src={`./images/${props.imageUrl}`} alt={props.title} />
             </div>
             <div className='card-info'>
                 <img className='map-pin' src={pin} alt="map pin" />
